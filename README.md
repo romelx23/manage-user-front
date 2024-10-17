@@ -38,8 +38,7 @@ Este proyecto es una aplicación frontend desarrollada en **React** con **TypeSc
 4. Crea un archivo `.env` en la raíz del proyecto y añade tus variables de entorno:
 
    ```
-   REACT_APP_API_URL=https://api.tu-backend.com
-   REACT_APP_AUTH_TOKEN=token_de_autenticacion
+   VITE_BASE_URL=http://localhost:3000/
    ```
 
 5. Inicia la aplicación en modo de desarrollo:
@@ -55,7 +54,3 @@ Este proyecto es una aplicación frontend desarrollada en **React** con **TypeSc
 - **`npm run start`**: Inicia la aplicación en modo de desarrollo.
 - **`npm run build`**: Crea una versión optimizada de la aplicación para producción.
 - **`npm run lint`**: Linter para revisar el código en busca de errores y advertencias.
-
-## Estructura del proyecto
-
-El proyecto tiene la siguiente estructura de carpetas:
